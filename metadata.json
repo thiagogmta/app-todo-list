@@ -1,0 +1,6 @@
+{
+  "name": "Logi",
+  "description": "Gerenciador de tarefas moderno e focado em produtividade.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
