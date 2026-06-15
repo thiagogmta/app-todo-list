@@ -1,20 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Aplicativo de Lista de Tarefas: Logi
 
-# Run and deploy your AI Studio app
+![Tela inicial](img/logi.jpg)
 
-This contains everything you need to run your app locally.
+Aplicativo para gestão de tarefas, projetos e metas. Inclui calendário e grafico de produtividade para acompanhamento.
 
-View your app in AI Studio: https://ai.studio/apps/ae739a04-2f10-4768-bf9a-b6b7551d0a86
+Projeto desenvolvido durante a disciplina:
+- Projeto de Interface Web - 2º Ano Técnico em Informática
+- Professor: Thiago Guimarães Tavares
 
-## Run Locally
+## Sobre o projeto
 
-**Prerequisites:**  Node.js
+![Modelo de baixa fidelidade](img/media-fidelidade.png)
 
+O projeto foi projetado utilizando Whimiscal como ferramenta de prototipagem para o desenvolvimento do layout de média fidelidade.
 
-1. Install dependencies:
+Posteriormente utilizou-se o Google Stitch como ferramenta para criar a interface grafica e identidade visual do aplicativo.
+
+Na sequência foi utilizado o Google Ai Studio para criação do aplicativo em si.
+
+## Para Rodar Localmente:
+
+- Clone este repositório e acesse o diretório do projeto
+
+**Prerequisitos:**  Node.js
+
+1. Instale as dependências com npm:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Para rodar o aplicativo inicie o servidor:
    `npm run dev`
+3. Insira a url informada ao final do comando no seu navedor de internet
